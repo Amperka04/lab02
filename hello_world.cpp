@@ -1,5 +1,9 @@
 #include <iostream>
-using namespace std;
+#include <string>
+
 int main(){
-	cout << "Hello World!!!";
+	string name; 
+	std::cout << "Enter Name: \n";
+	std::cin >> name; 
+	std::cout << "Hello World " << name << "!!11!!!";
 }
